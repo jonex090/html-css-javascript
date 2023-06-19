@@ -28,26 +28,18 @@ body{
     margin-bottom: 2em;
     background-color: white;
 }
-.images{
-    width: 50%;
-    margin:50px;
+.id{
+    text-align: center;
+    margin-bottom: 20px;
 }
 li{
+    font-size: 24px;
     list-style: none;
     text-align: left;
-    padding: 4px 0px;
+    margin: 10px 0px;
 }
 p{
     text-align: left;
-    margin: 15px;
-}
-
-.title{
-    font-size: 1.3rem;
-}
-.category,.price{
-    font-weight: bold;
-    text-transform: capitalize;
-    margin: 1em;
-    font-size: 1.2rem
+    margin: 20px;
+    font-size: 20px;
 }

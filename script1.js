@@ -7,7 +7,7 @@ fetch('https://jsonplaceholder.typicode.com/users?fbclid=IwAR1hvQEmF50APk8AOn_YS
     completedata.map((vrednost) => {
         data1+= `     <div class="card">
         <ul>
-            <li>ID: ${vrednost.id}</li>
+            <h1 class="id">ID: ${vrednost.id}</h1>
             <li>Name: ${vrednost.name}</li>
             <li>UserName: ${vrednost.username}</li>
             <li>Email: ${vrednost.email}</li>
