@@ -5,8 +5,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 body{
-    background-color: rgb(205, 119, 231);
-}
+    background-image: url("https://previews.123rf.com/images/phokin/phokin1610/phokin161000114/64051565-black-and-white-brick-wall-texture-background-wall-texture-background-flooring-interior-rock-stone.jpg");
 .heading{
     text-align: center;
     font-size: 3rem;
@@ -16,29 +15,31 @@ body{
 #cards{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; 
+    flex-wrap:wrap;
 }
 
 .card{
     width: 21%;
-    box-shadow: 0 0 4px 3px rgb(111, 101, 252);
+    box-shadow: 0 0 4px 3px rgba(199, 100, 7, 0.747);
     border-radius: 25px;
     text-align: center;
     padding: 1.5rem;
     margin-bottom: 2em;
-    background-color: white;
+    background-color: rgba(165, 165, 165, 0.623);
 }
 .id{
     text-align: center;
     margin-bottom: 20px;
+    color: white;
 }
 li{
-    font-size: 24px;
-    list-style: none;
+    font-size: 54px;
+    list-style: circle;
     text-align: left;
     margin: 10px 0px;
 }
 p{
+    
     text-align: left;
     margin: 20px;
     font-size: 20px;
