@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(70, 70, 70);
+}
+
+.wrapper{
+    
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container{
+    width: 100%;
+    padding:  40px 30px;
+    text-align: center;
+    position: relative;
+}
+
+.container h1{
+    color: rgb(3, 175, 61);
+}
+
+.container h3{  
+    background-color: rgb(3, 175, 61);
+    color: blue;
+}
