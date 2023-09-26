@@ -1,20 +1,13 @@
 let quote = document.getElementById("quote");
 let author = document.getElementById("author");
+const random = randomIntFromInterval(1, 100)
+const url = `https://dummyjson.com/quotes/${random}`;
+fetch(url).then((res) => res.json()).then((data) => {
+   quote.innerText = data.quote;
+   author.innerText = data.author;
+})
 
-const url = "https://dummyjson.com/quotes/3";
-
-
-let getQoute = () =>{    
-    fetch(url)
-    .then((data) => data.json())
-    .then((item) => {
-        const indx = Math.floor(Math.random()*item.length);
-        console.log(item.quote);
-        console.log(item.author);
-        quote.innerText = item.quote;
-        author.innerText = item.author;
-    });
-};
-
-window.addEventListener("load", getQoute);
-
+function randomIntFromInterval(min, max) { // min and max included 
+    return Math.floor(Math.random() * (max - min + 1) + min)
+  }
+  
